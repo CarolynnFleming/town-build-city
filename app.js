@@ -75,11 +75,9 @@ function displaySlogans() {
 
 function displayStats() {
 
-    countEl.textContent = `you've changed the castle ${castleCount} times, 
-    you've changed the skyline ${skylineCount} times,
-    you've changed the waterfront ${waterfrontCount} times`;
+    countEl.textContent = makeStatsString(castleCount,skylineCount,waterfrontCount);
   }
-const statString = makeStatsString();
+//const statString = makeStatsString() 
 
 
 
