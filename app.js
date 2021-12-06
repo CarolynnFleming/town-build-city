@@ -1,6 +1,5 @@
 import { makeStatsString } from './utils.js';
 const castleMenu = document.querySelector('#castle-menu');
-console.log(castleMenu)
 const skylineMenu = document.querySelector('#skyline-menu');
 const waterfrontMenu = document.querySelector('#waterfront-menu');
 const castleImageEl = document.querySelector('#castle-image');
